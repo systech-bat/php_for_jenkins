@@ -33,7 +33,7 @@ section.congratulations {
 section.congratulations h1 {
     margin: 0 0 25px 0;
     padding: 0;
-    color: #;
+    color:#fff;
     font-family: 'Lobster Two', cursive;
     font-size: 4.5em;
     text-shadow: 3px 3px 0 #334;
@@ -41,6 +41,12 @@ section.congratulations h1 {
     -moz-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
+}
+section.congratulations span.text_blue{
+    color: blue;
+}
+section.congratulations span.text_yellow{
+    color: yellow;
 }
 section.congratulations p {
     text-shadow: 1px 1px 0 #334;

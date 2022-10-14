@@ -22,8 +22,8 @@ else
     <link rel="stylesheet" href="/styles.css" type="text/css">
 </head>
 <body>
-    <section class="congratulations!">
-        <h1>Congratulations!</h1>
+    <section class="congratulations">
+        <h1><span class="text_blue">Congrat</span><span class="text_yellow">ulations!!!</span></h1>
         <p>Your AWS Elastic Beanstalk <em>PHP</em> application is now running on your own dedicated environment in the AWS&nbsp;Cloud</p>
         <p>You are running PHP version <?= phpversion() ?></p>
         <p>This environment is launched with Elastic Beanstalk PHP Platform, from Jenkins in Ubuntuserver02</p>
